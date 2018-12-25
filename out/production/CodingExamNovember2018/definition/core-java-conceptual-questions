@@ -25,9 +25,11 @@ What is difference between path and classpath variables?
 A. When you install Java on your machine it is required to set the path environment variable to convenient run the executable(javac.exe,java.exe,javadoc.exe etc)
 from any directory without having to type the full path of the command.
 What is the difference between an Interface and Abstract class?
-A.
+A.In interface you can declare method not implement,but in Abstract you declare abstract method & implement non abstract method.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. No. By abstract class extend to concrete class.
 what is Access pelne each feature of java OOP.
+A.
 What is Java Package and which package is imported by default?
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
