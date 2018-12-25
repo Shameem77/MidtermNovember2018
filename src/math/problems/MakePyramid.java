@@ -1,19 +1,20 @@
 package math.problems;
 
 public class MakePyramid {
-    public static void main(String[] args) {
 
-        /*   Implement a large Pyramid of stars in the screen with java.
+        public static void main(String[] args) {
 
-                              *
-                             * *
-                            * * *
-                           * * * *
-                          * * * * *
-                         * * * * * *
+            for(int i=0;i<40;i++) {  // took 50 numbers for the size of the pyramid
+                for(int j=0;j<40-i;j++) {
+                    System.out.print(" ");
+                }
 
-        */
+                for (int k=0;k<=i;k++) {
+                    System.out.print("* ");
+                }
+                System.out.println();
+            }
 
 
         }
-  }
+    }

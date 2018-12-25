@@ -5,19 +5,31 @@ A.
 What jdk contains or composed of and define each components?
 A.
 What is IDE?
-A.
+A. Integrated Development Environment
 What are the IDEs available in the market to support java?
-Explain the entire java life cycle.
+A. Eclipse,IntelliJ,Net Beans.
+Explain the entire java life cycle?
+A. Editing the program,Compiling the source code, Executing the byte code.
 what is class?
+A. Class is blueprint of an object.
 What is object?
+A. Object is a instance of a class.
 What is the entry point of an application?
+A. main method.
 Why main is static?
+A. Static allows main method to be called without having to instantiate a particular instance of the class. Because main method is static
+JVM can call it without creating instance of class.
 Which class is the superclass of all classes?
+A. Object Class.
 What is difference between path and classpath variables?
+A. When you install Java on your machine it is required to set the path environment variable to convenient run the executable(javac.exe,java.exe,javadoc.exe etc)
+from any directory without having to type the full path of the command.
 What is the difference between an Interface and Abstract class?
+A.In interface you can declare method not implement,but in Abstract you declare abstract method & implement non abstract method.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
-What is OOP ? Define each feature of java OOP.
+A. No. By abstract class extend to concrete class.
+what is Access pelne each feature of java OOP.
+A.
 What is Java Package and which package is imported by default?
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
