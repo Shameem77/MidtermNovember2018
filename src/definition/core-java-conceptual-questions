@@ -1,9 +1,10 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. A programming language is a vocabulary and set of grammatical rules for instructing a computer or computing device to perform
+specific task.
 What jdk contains or composed of and define each components?
-A.
+A.The Java Development Kit(JDK) is an implementation of either one of java platform,...JDK contents[edit]
 What is IDE?
 A. Integrated Development Environment
 What are the IDEs available in the market to support java?
@@ -29,8 +30,13 @@ A.In interface you can declare method not implement,but in Abstract you declare 
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 A. No. By abstract class extend to concrete class.
 what is Access pelne each feature of java OOP.
-A.
+A.Object Oriented Programing.
+Abstraction: Process of implementation hiding.
+Encapsulation: Data Protecting.
+Polymorphism: An object can take many form
+Inheritance: Proses of acquire properties from one class to another class.
 What is Java Package and which package is imported by default?
+A.
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
 What is method overloading and when it happens?
@@ -38,19 +44,31 @@ Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
+A. final is a keyword, finally is used to place important code,finalized is used to perform clean up processing
+just before object is garbage collected.
 What is a constructor ?
+A. It initialized the object.
 Can we have multiple constructors in a class?
+A. Yes.
 If we don't have a constructor declared, what is called during the object creation?
+A. Default constructor.
 What is "this" keyword in java ?
+A. this keyword refer instance variable in current class.
 What is "super" keyword in java? How many possible way can you use?
+A. super keyword in java can be used to refer immiediate parent class instance variable.
 What is JVM stand for ?
+A. Java Virtual Machine.
 Is JVM platform independent?
+A. Yes.
 What version of java are you using?
+A. 1.8
 What is JAR stand for ?
+A. Java
 What is the difference between JDK and JVM?
 What is the difference between JVM and JRE?
 What is compile time and run time?
 What is heap?
+
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
 What is Singleton class?
@@ -61,21 +79,38 @@ What is Enum?
 What is Iterator?
 Which one will take more memory, an int or Integer?
 Why is String Immutable in Java?
+A. The string is  immutable in Java because String objects are cached in string pool.
 What is constructor chaining in Java?
+A. Constructor chaining is the process of calling one constructor to another constructor with respect current object.
 The difference between Serial and Parallel Garbage Collector?
 What is JIT stands for?
+A. Just In Time.
 Explain Java Heap space and Garbage collection?
+A. Java heap space error will be triggered when the object are no longer used by the application but Garbage Collection
+fails to recognized it.
 Can you guarantee the garbage collection process?
+A. No.
 What is the difference between stack and heap in Java?
+A. Stack is used for static memory allocation & Heap for dynamic memory allocation, both stored in computer's RAM.
 What is reflection in java and why is it useful?
+A. Reflection in Java is the ability to Examine at runtime.
 what is multithreading in java?
+A. Multithreading in java is a process of executing two or more threads simultaneously.
 What is the use of synchronization in Java?
+A. Synchronized keyword in Java is used to provide mutually exclusive access to a shared resou
 What is Framework?
+A. A framework is a particular set of rules , ideas, or beliefs which you in order to deal with problems what to do.
 What are the testing Framework available in java?
+A. Test Driven Development, Behavior Driven Development.
 Difference between jUnit and testNG?
+A. TestNG supports parallel testing, while Junit does not have such a feature. The process of parameterized test configuration
+in TestNG is easier than in JUnit.
 What are the dependencies for this project?
+A.
 what is dependency injection in java?
+A.Dependency injection is a technique whereby one object supplies the dependencies  of another object in Java.
 What is static binding and dynamic binding?
+A. Static binding Java occurs during compile time while Dynamic binding occurs During Runtime.
 
 
 

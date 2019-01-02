@@ -28,7 +28,7 @@ public class ConnectToMongoDB {
         return mongoDatabase;
     }
 
-    public static String insertIntoToMongoDB(User user){
+    public static String insertIntoToMongoDB(databases.User user){
         String profile = user.getStName();
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection<Document> collection = mongoDatabase.getCollection("profile");
